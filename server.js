@@ -22,8 +22,8 @@ app.get('/ui/main.js', function (req, res) {
 
 
 
-app.get('/ui/madi.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
+app.get('https://www.facebook.com/images/photos/profile/gradient.png', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'https://www.facebook.com/images/photos/profile/gradient.png'));
 });
 
 
