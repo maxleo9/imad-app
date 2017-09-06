@@ -16,13 +16,13 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+  res.sendFile(path.join(__dirname, 'ui', ''));
 });
 
 
 
 
-app.get('https://www.facebook.com/images/photos/profile/gradient.png', function (req, res) {
+app.get('/ui/https://www.facebook.com/images/photos/profile/gradient.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'https://www.facebook.com/images/photos/profile/gradient.png'));
 });
 
