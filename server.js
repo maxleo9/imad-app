@@ -22,8 +22,8 @@ app.get('/ui/main.js', function (req, res) {
 
 
 
-app.get('/ui/https://www.facebook.com/images/photos/profile/gradient.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'https://www.facebook.com/images/photos/profile/gradient.png'));
+app.get('/ui/https://scontent.famd2-1.fna.fbcdn.net/v/t1.0-9/20882628_1891765384421137_3047149384025071595_n.jpg?oh=c1694e640125e8588a092293e1ec978d&oe=5A504F8C', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'https://scontent.famd2-1.fna.fbcdn.net/v/t1.0-9/20882628_1891765384421137_3047149384025071595_n.jpg?oh=c1694e640125e8588a092293e1ec978d&oe=5A504F8C'));
 });
 
 
